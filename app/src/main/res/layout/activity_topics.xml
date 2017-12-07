@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="arjunweb.com.explictiintent2demo.TopicsActivity">
+
+    <Button
+        android:id="@+id/topics_intent_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="28dp"
+        android:text="Intent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/topics_hw_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Hello world"
+        app:layout_constraintStart_toStartOf="@+id/topics_intent_bt"
+        app:layout_constraintTop_toBottomOf="@+id/topics_intent_bt" />
+
+    <Button
+        android:id="@+id/topics_spinner_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Spinner"
+        app:layout_constraintStart_toStartOf="@+id/topics_hw_bt"
+        app:layout_constraintTop_toBottomOf="@+id/topics_hw_bt" />
+
+    <Button
+        android:id="@+id/topics_pb_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Progress bar"
+        app:layout_constraintStart_toStartOf="@+id/topics_spinner_bt"
+        app:layout_constraintTop_toBottomOf="@+id/topics_spinner_bt" />
+
+    <Button
+        android:id="@+id/topics_services_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Services"
+        app:layout_constraintStart_toStartOf="@+id/topics_pb_bt"
+        app:layout_constraintTop_toBottomOf="@+id/topics_pb_bt" />
+</android.support.constraint.ConstraintLayout>
